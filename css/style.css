@@ -1,0 +1,282 @@
+@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+/* 
+font-family: 'Julius Sans One', sans-serif;
+font-family: 'Merriweather', serif;
+ */
+
+ :root {
+    --border: 2px solid blue;
+    --back: #684f49;
+    --font: #ffe5d5;
+ }
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Julius Sans One', sans-serif;
+    background-color: #804734;
+    color: #ffe5d5;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    
+}
+.logo {
+   width: 20%;
+}
+
+.text {
+    margin-bottom: 15px;
+}
+.insta{
+    font-family: 'Merriweather', serif;
+    text-decoration: none;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.whats {
+    width: 250px;
+    height: 50px;
+    border-radius: 50px;
+    border: 1px solid #ffe5d5;
+    background-color: #128C7E;
+    margin-bottom: 15px;
+    font-size: 1.1em;
+    font-weight: 600;
+}
+
+.map-responsive{
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 8px solid #ffe5d5;
+    
+
+}
+/* home */
+body {
+    width: 100%;
+}
+ #menu {
+    height: 150px;
+    width: 100%;
+    border-bottom: 1px solid #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: fixed;
+}
+
+#btn-w{
+    margin-left: 95%;
+    margin-top: 25%;
+    position: fixed;
+    
+}
+.logo-menu {
+    height: 100%;
+    margin-left: 20px;
+}
+.menu-list {
+    display: flex;
+    gap: 35px;
+    margin-right:60px;
+    list-style: none;
+}
+#contend {
+    display: flex;
+    flex-direction: column;
+    padding-top: 180px;
+    
+    
+}
+.contend-1{
+    width: 70vw;
+    height: 51vh;
+    border-radius: 15px;
+    
+}
+.contend-3{
+    width: 40vw;
+    height: 24vh;
+        border-radius: 15px;
+    
+}
+.contend-4{
+    width: 40vw;
+    height: 24vh;
+    background-position: center center;
+    border-radius: 15px;
+    
+}
+.grid-banner{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 40px;
+}
+.grid-banner-2 {
+    display: flex;
+    flex-direction: column;
+    gap:40px;
+}
+
+.btn-whatsapp-2{
+    display: block;
+    margin-left: auto;
+    
+
+}
+ .img-what{
+    width: 50px;
+    display: flex;
+    margin-left: auto;
+    padding-bottom: 10px;
+ }
+/* rodape */
+ #rodape{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 60px;
+    width: 100%;
+    padding-left: 15px;
+    box-shadow: rgba(255, 255, 255, 0.32) 0px 2px 4px 0px, rgba(14, 30, 37, 0.5) 0px 2px 16px 0px;
+    height: 250px;
+}
+.iconsociais {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    font-size: 50px;
+    margin-top: 30px;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 25px;
+    cursor: pointer;
+    
+}
+.iconsociais i{
+    top: 50%;
+    left: 50%;
+    display: block;
+    color: #804734;
+    background-color: #ffe5d5;
+    width: 90px;
+    height: 90px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+}
+
+.contat {
+    text-align: center;
+    font-size: 1.2em;
+    padding-bottom: 35px;
+}
+
+@media (max-width:400px) {
+    body{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+        
+        
+    }
+    .logo {
+        margin-top: 25px;
+        width: 80%;
+    }
+    
+    .text {
+        margin-bottom: 15px;
+        width: 80%;
+        text-align: center;
+    }
+    .insta {
+        font-family: 'Merriweather', serif;
+        text-decoration: none;
+        margin-bottom: 15px;
+    }
+    .whats {
+        width: 250px;
+        height: 50px;
+        border-radius: 50px;
+        border: 1px solid #ffe5d5;
+        background-color: #128C7E;
+        font-size: 1.1em;
+        font-weight: 600;
+    }
+    .map-responsive{
+        margin-top: 15px;
+        margin-left: auto;
+        margin-right: auto;
+        border: 8px solid #ffe5d5;
+    }
+    /* home */
+    #menu {
+        width: 100%;
+        height: 150px;
+        border-bottom: 2px solid #fff;
+        display: flex;
+        justify-content: space-between;
+        position: fixed;
+        top: 0;
+        margin: 0;
+    }
+    .logo-menu {
+        width: 80px;
+        height: 80px;
+        margin: 10px;
+    }
+    .menu-list {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-around;
+        gap: 10px;
+    }
+    #btn-w{
+        margin-left: 85%;
+        margin-top: 90%;
+        position: fixed;
+        
+    }
+    #contend {
+        width: 90%;
+        display: flex;
+        
+    }
+    .grid-banner{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 90%;
+        border: var(--border);
+    }
+    .banner-1{
+        width: 100%;
+       
+        margin-right: 50%;
+        border: var(--border);
+    }
+
+}
