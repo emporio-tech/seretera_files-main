@@ -21,6 +21,7 @@ font-family: 'Merriweather', serif;
 }
 body {
     width: 100vw;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     
@@ -55,6 +56,7 @@ body {
         margin-top: 90%;
         position: fixed;
         background: none;
+        top: 80%;
     }
     .img-what {
         width: 50px;
@@ -106,19 +108,7 @@ body {
         
     }
     .iconsociais i{
-        top: 50%;
-        left: 50%;
-        display: block;
-        color: #804734;
-        background-color: #ffe5d5;
-        width: 90px;
-        height: 90px;
-        text-align: center;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        border-radius: 50px;
+      padding: 10px;
     }
     
     .contat {
@@ -128,5 +118,105 @@ body {
     }    
 
 }
+/* desktop */
+#menu {
+    height: 200px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    display: flex;
+    flex-direction: row;
+    border-bottom: 2px solid var(--font);
+    justify-content: space-between;
+    align-items: center;
+}
+.logo-menu {
+    height: 180px;
+    margin: 10px;    
+    
+}
+.menu-list {
+    list-style: none;
+    display: flex;
+    gap: 45px;
+    margin-right: 150px;
+    font-size: 1.5em;
+}
+
+.img-what{
+    position: fixed;
+    top: 90%;
+    width: 50px;
+    left: 95%;
+}
+#contend {
+    width: 95%;
+        
+    border-radius: 25px;
+    margin-top: 250px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+.grid-banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    
+}
+.banner-1, .banner-2{
+    width: 100%;
+    border-radius: 25px;
+    border: 1.5px solid var(--font);
+}
+.banner-3{
+    border-radius: 25px;
+    border: 1.5px solid var(--font);
+}
+.grid-banner-2 {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+/* rodape */
+
+#rodape{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 60px;
+    width: 100%;
+    padding-left: 15px;
+    box-shadow: rgba(255, 255, 255, 0.32) 0px 2px 4px 0px, rgba(14, 30, 37, 0.5) 0px 2px 16px 0px;
+    height: 250px;
+}
+.iconsociais {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    font-size: 50px;
+    margin-top: 30px;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 25px;
+    cursor: pointer;
+    
+}
+.iconsociais i{
+  padding: 10px;
+}
+
+.contat {
+    text-align: center;
+    font-size: 1.2em;
+    padding-bottom: 35px;
+}    
+
+
 
 
